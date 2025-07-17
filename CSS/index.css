@@ -86,7 +86,7 @@
 .container .box2{
     height: 400px;
 }
-.container .box2 .card{
+.container .box2 .back .card{
     position: absolute;
     background-color: #2a3f55b3 ;
     width: 300px;
@@ -119,7 +119,7 @@
     z-index: 5;
 }
 .container .box2 .back .text{
-    /* color: #fff; */
+    color: #fff;
     padding: 10px 0;
     width: 90%;
     margin: auto;
@@ -149,7 +149,7 @@
     z-index: 5;
 }
 
-.container .box2:hover .card{
+.container .box2:hover .back .card{
     z-index: 1;
     opacity: 1;
     border-radius: 0;
